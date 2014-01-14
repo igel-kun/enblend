@@ -1,0 +1,72 @@
+diff -burN enblend-enfuse-4.0-753b534c819d.orig/doc/entropy-cutoff.gp.in enblend-enfuse-4.0-753b534c819d/doc/entropy-cutoff.gp.in
+--- enblend-enfuse-4.0-753b534c819d.orig/doc/entropy-cutoff.gp.in	2010-08-24 19:53:29.000000000 +0200
++++ enblend-enfuse-4.0-753b534c819d/doc/entropy-cutoff.gp.in	2010-08-24 19:56:56.000000000 +0200
+@@ -24,7 +24,7 @@
+ replot
+ 
+ set output "entropy-cutoff.png"
+-set terminal png font FreeSans 10 size Png_Width, Png_Height enhanced
++set terminal png font "FreeSans,10" size Png_Width, Png_Height enhanced
+ replot
+ 
+ set output "entropy-cutoff.eps"
+diff -burN enblend-enfuse-4.0-753b534c819d.orig/doc/entropy.gp.in enblend-enfuse-4.0-753b534c819d/doc/entropy.gp.in
+--- enblend-enfuse-4.0-753b534c819d.orig/doc/entropy.gp.in	2010-08-24 19:53:29.000000000 +0200
++++ enblend-enfuse-4.0-753b534c819d/doc/entropy.gp.in	2010-08-24 19:57:20.000000000 +0200
+@@ -19,7 +19,7 @@
+ replot
+ 
+ set output "entropy.png"
+-set terminal png font FreeSans 10 size Png_Width, Png_Height enhanced
++set terminal png font "FreeSans,10" size Png_Width, Png_Height enhanced
+ replot
+ 
+ set output "entropy.eps"
+diff -burN enblend-enfuse-4.0-753b534c819d.orig/doc/gaussian.gp.in enblend-enfuse-4.0-753b534c819d/doc/gaussian.gp.in
+--- enblend-enfuse-4.0-753b534c819d.orig/doc/gaussian.gp.in	2010-08-24 19:53:29.000000000 +0200
++++ enblend-enfuse-4.0-753b534c819d/doc/gaussian.gp.in	2010-08-24 19:57:23.000000000 +0200
+@@ -18,7 +18,7 @@
+ replot
+ 
+ set output "gaussian.png"
+-set terminal png font FreeSans 10 size Png_Width, Png_Height enhanced
++set terminal png font "FreeSans,10" size Png_Width, Png_Height enhanced
+ replot
+ 
+ set output "gaussian.eps"
+diff -burN enblend-enfuse-4.0-753b534c819d.orig/doc/laplacian-of-gaussian.gp.in enblend-enfuse-4.0-753b534c819d/doc/laplacian-of-gaussian.gp.in
+--- enblend-enfuse-4.0-753b534c819d.orig/doc/laplacian-of-gaussian.gp.in	2010-08-24 19:53:29.000000000 +0200
++++ enblend-enfuse-4.0-753b534c819d/doc/laplacian-of-gaussian.gp.in	2010-08-24 19:57:23.000000000 +0200
+@@ -24,7 +24,7 @@
+ replot
+ 
+ set output "laplacian-of-gaussian.png"
+-set terminal png font FreeSans 10 size Png_Width, Png_Height enhanced
++set terminal png font "FreeSans,10" size Png_Width, Png_Height enhanced
+ replot
+ 
+ set output "laplacian-of-gaussian.eps"
+diff -burN enblend-enfuse-4.0-753b534c819d.orig/doc/sharp-edge.gp.in enblend-enfuse-4.0-753b534c819d/doc/sharp-edge.gp.in
+--- enblend-enfuse-4.0-753b534c819d.orig/doc/sharp-edge.gp.in	2010-08-24 19:53:29.000000000 +0200
++++ enblend-enfuse-4.0-753b534c819d/doc/sharp-edge.gp.in	2010-08-24 19:56:48.000000000 +0200
+@@ -11,7 +11,7 @@
+ replot
+ 
+ set output "sharp-edge.png"
+-set terminal png font FreeSans 10 size Png_Width, Png_Height enhanced
++set terminal png font "FreeSans,10" size Png_Width, Png_Height enhanced
+ replot
+ 
+ set output "sharp-edge.eps"
+diff -burN enblend-enfuse-4.0-753b534c819d.orig/doc/smooth-edge.gp.in enblend-enfuse-4.0-753b534c819d/doc/smooth-edge.gp.in
+--- enblend-enfuse-4.0-753b534c819d.orig/doc/smooth-edge.gp.in	2010-08-24 19:53:29.000000000 +0200
++++ enblend-enfuse-4.0-753b534c819d/doc/smooth-edge.gp.in	2010-08-24 19:56:42.000000000 +0200
+@@ -11,7 +11,7 @@
+ replot
+ 
+ set output "smooth-edge.png"
+-set terminal png font FreeSans 10 size Png_Width, Png_Height enhanced
++set terminal png font "FreeSans,10" size Png_Width, Png_Height enhanced
+ replot
+ 
+ set output "smooth-edge.eps"
